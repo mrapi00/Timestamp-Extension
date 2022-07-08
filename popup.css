@@ -1,0 +1,53 @@
+.container {
+  width: 280px;
+  color: #349461;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.textbox {
+  width: 100%;
+  font-size: 12px;
+  margin: 0;
+  padding: 0px 2px;
+}
+
+.textbox:focus {
+  outline: 0;
+  border-color: #374d95;
+}
+
+.timestamps {
+  margin: 5px 5px;
+  padding: 3px;
+}
+
+.timestamp {
+  display: flex;
+  border-bottom-color: #287648;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-radius: 0.8rem;
+  padding: 3px;
+  padding-bottom: 7px;
+  margin-bottom: 7px;
+}
+
+.timestamp-title {
+  padding-left: 2px;
+}
+
+.timestamp-controls img {
+  margin: 0 4px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+.timestamp-controls {
+  flex: auto;
+  text-align: right;
+}
